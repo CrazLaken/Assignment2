@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake and Ladder Game</title>
+  </head>
+  <body>
+    <h1>Snake and Ladder</h1>
+
+    <form class="" action="index.html" method="post">
+
+    <table>
+      <tr>
+        <td><strong>Player 1</strong></td>
+        <td><strong>Player 2</strong></td>
+      </tr>
+      <tr>
+        <td>Position: <input type="text" id="Pos1" value="0"></td>
+        <td>Position: <input type="text" id="Pos2" value="0"></td>
+      </tr>
+      <tr>
+        <td>Your number: <input type="text" id="randNum1" value=""></td>
+        <td>Your number: <input type="text" id="randNum2" value=""></td>
+      </tr>
+      <tr>
+        <td><button type="button" name="rand1" onclick="dice1()">Roll dice</button></td>
+        <td><button type="button" name="rand2" onclick="dice2()">Roll dice</button></td>
+      </tr>
+      <tr>
+        <td><p id="result1"></p></td>
+        <td><p id="result2"></p></td>
+      </tr>
+      <tr>
+        <td><input type="reset" name="Reset" value="Start New Game"></td>
+      </tr>
+    </table>
+    </form>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
